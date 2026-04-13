@@ -39,6 +39,43 @@ Make.com Webhook — send email notification
 Power BI — interactive dashboard
 
 
+## What I Did — Step by Step
+
+### Step 1 — Explored the Data (Python + AI)
+- Used AI (Claude) to generate Python EDA script
+- Ran the script to understand data shape,
+  find nulls, duplicates, and outliers
+- Identified all data quality problems before cleaning
+
+### Step 2 — Cleaned the Data (Python + AI)
+- Used AI (Claude) to generate Python cleaning script
+- Script automatically fixed all 8 data quality issues
+- Reduced 101,000 rows to 95,859 clean records
+- What used to take 2 hours in Excel now runs in seconds
+
+### Step 3 — Analysed with SQL (PostgreSQL + AI)
+- Used AI (Claude) to write all SQL queries
+- Loaded clean data into PostgreSQL database
+- Calculated 4 business KPIs using SQL queries
+
+### Step 4 — Generated AI Insights (Claude API)
+- Connected Claude API to the project using Python
+- Claude automatically reads KPI numbers
+- Generates business insights and recommendations
+- No manual analyst writing needed
+
+### Step 5 — Built Dashboard (Power BI)
+- Connected clean CSV to Power BI
+- Built 10+ interactive visualisations
+- Added slicers for Region, Category, Channel, Year
+- Stakeholders can filter and explore data themselves
+
+### Step 6 — Automated Workflow (Make.com)
+- Built no-code automation on Make.com
+- Trigger: new data file arrives
+- Action: sends email notification automatically
+- No manual checking needed
+
 ## Tools Used
 
 | Tool | Purpose |
